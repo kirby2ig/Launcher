@@ -8,8 +8,8 @@ using namespace std;
 const string home = getenv("HOME");
 const string directory = home + "/.minecraft_launcher";
 const string launcherJar = directory + "/Launcher.jar";
-const string nice = "/usr/bin/nice -20";
-const string command = nice + " java -jar " + launcherJar;
+const string niceCMD = "/usr/bin/nice -20";
+const string command = niceCMD + " java -jar " + launcherJar;
 
 void launch()
 {
